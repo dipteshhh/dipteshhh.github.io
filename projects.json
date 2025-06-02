@@ -1,0 +1,17 @@
+[
+  {
+    "title": "AI Resume Analyzer",
+    "description": "An NLP-powered tool that scores resumes, suggests improvements, and enhances ATS compatibility.",
+    "link": "https://github.com/dipteshhh/ai-resume-analyzer"
+  },
+  {
+    "title": "Multi-Client Chat App",
+    "description": "A Python socket-based chat app that supports real-time group and private messaging for up to 10 users.",
+    "link": "https://github.com/dipteshhh/multiclient-chat-app"
+  },
+  {
+    "title": "QUIC Protocol Security Research",
+    "description": "An in-depth network security analysis of QUIC’s connection migration behavior using Wireshark.",
+    "link": "https://github.com/dipteshhh/quic-security-research"
+  }
+]
