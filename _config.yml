@@ -2,19 +2,13 @@ title: "Diptesh Shahi Thakuri"
 email: diptesh@example.com
 description: >-
   Investigative journalism meets global affairs & digital reform.
-baseurl: "" # IMPORTANT: leave this blank for GitHub Pages user site (username.github.io)
+baseurl: "" # this is CRITICAL for user pages
 url: "https://dipteshhh.github.io"
 
-twitter_username: dipteshhh
 github_username: dipteshhh
-
-# REMOVE this line because we're using the theme locally
-# theme: minimal-mistakes-jekyll
-
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
-locale: "en-US"
 
-# Plugins used by Minimal Mistakes
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -23,8 +17,3 @@ plugins:
 
 markdown: kramdown
 highlighter: rouge
-
-# Optional: Google Analytics, Socials, etc. can be configured here
-
-# Optional: Navigation
-# To configure your site's menu, edit `_data/navigation.yml`
