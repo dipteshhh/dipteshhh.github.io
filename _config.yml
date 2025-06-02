@@ -1,7 +1,7 @@
 title: "Diptesh's Blog"
 email: dipteshhh@gmail.com
-description: >-
-  Investigative journalism, tech and policy analysis by Diptesh Shahi Thakuri.
+description: Investigative blog powered by Jekyll and GitHub Pages
+
 baseurl: "" 
 url: "https://dipteshhh.github.io"
 twitter_username: dipteshhh
