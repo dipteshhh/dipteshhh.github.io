@@ -1,19 +1,19 @@
 title: "Diptesh Shahi Thakuri"
-email: diptesh@example.com
 description: >-
-  Investigative journalism meets global affairs & digital reform.
-baseurl: "" # this is CRITICAL for user pages
-url: "https://dipteshhh.github.io"
+  Independent blog by Diptesh Shahi Thakuri — exploring Nepal’s current affairs,
+  transport reform, and global issues through the lens of investigative journalism
+  and technology.
 
-github_username: dipteshhh
+url: "https://dipteshhh.github.io"
+baseurl: ""
+
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-include-cache
 
+# Optional but helpful
 markdown: kramdown
 highlighter: rouge
