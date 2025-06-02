@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diptesh Shahi Thakuri | CS Student & Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diptesh Shahi Thakuri | Computer Science Student</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #0e0e0e;
-      color: #f5f5f5;
-      max-width: 800px;
+      background-color: #121212;
+      color: #f0f0f0;
+      max-width: 900px;
       margin: 2rem auto;
-      padding: 1rem;
-      line-height: 1.6;
+      padding: 2rem;
+      line-height: 1.7;
     }
-    h1, h2 {
-      color: #00ffcc;
+    h1, h2, h3 {
+      color: #00ffc8;
     }
     a {
-      color: #00ffcc;
+      color: #00ffc8;
       text-decoration: none;
     }
     a:hover {
@@ -28,52 +28,84 @@
       margin-top: 2.5rem;
     }
     .project {
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.5rem;
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills-grid li {
+      background-color: #1e1e1e;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Hi, I'm Diptesh 👋</h1>
+  <h1>Diptesh Shahi Thakuri</h1>
   <p>
-    I'm a Computer Science student at the University of Toledo, passionate about building real-world software with impact. 
-    I specialize in backend systems, full-stack development, AI tools, and network security. I enjoy coding things that solve real problems.
+    🎓 Computer Science student at The University of Toledo (Graduating May 2026) <br>
+    💻 Passionate about software engineering, AI, cybersecurity, and network systems.<br>
+    📍 Based in Toledo, Ohio | <a href="mailto:dthakur@rockets.utoledo.edu">Email Me</a> | <a href="https://github.com/dipteshhh" target="_blank">GitHub</a>
   </p>
+
+  <div class="section">
+    <h2>🛠️ Technical Skills</h2>
+    <ul class="skills-grid">
+      <li>Java, C, C++, Python</li>
+      <li>HTML, CSS, JavaScript, TypeScript</li>
+      <li>MySQL, PostgreSQL, MongoDB</li>
+      <li>Git, Bash, Linux, Docker, VMware</li>
+      <li>Wireshark, TCP/IP, Network Protocols</li>
+      <li>ANOVA, Regression, DOE, Cpk</li>
+    </ul>
+  </div>
 
   <div class="section">
     <h2>🚀 Projects</h2>
 
     <div class="project">
-      <strong>AI Resume Analyzer</strong><br>
-      NLP-powered tool that scores and improves resumes using T5, spaCy, and Flask.<br>
-      <a href="https://github.com/dipteshhh/resume-analyzer" target="_blank">GitHub Repo</a>
+      <strong>AI Resume Analyzer</strong> — NLP-powered web app using Flask, T5, spaCy to score and improve resumes.<br>
+      <a href="https://github.com/dipteshhh/resume-analyzer" target="_blank">View GitHub Repo</a>
     </div>
 
     <div class="project">
-      <strong>Multi-Client Chat App</strong><br>
-      Real-time terminal-based messaging system using Python, sockets, and threading.<br>
+      <strong>Multi-Client Chat Application</strong> — Real-time Python app using sockets and threading with up to 10 users.<br>
       <a href="https://github.com/dipteshhh/chat-app" target="_blank">View on GitHub</a>
     </div>
 
     <div class="project">
-      <strong>QUIC Protocol Security Analysis</strong><br>
-      Network security case study using Wireshark to analyze connection migration risks.<br>
+      <strong>Bank Account Manager</strong> — Java + MySQL system with account creation, transfers, and secure storage.<br>
+      <a href="https://github.com/dipteshhh" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+      <strong>QUIC Protocol Security Analysis</strong> — Research + Wireshark traffic analysis on connection migration risk.<br>
       <a href="https://github.com/dipteshhh" target="_blank">Read Report</a>
     </div>
   </div>
 
   <div class="section">
-    <h2>🎯 Goals</h2>
+    <h2>📚 Education & Achievements</h2>
     <p>
-      My goal is to become a software engineer who builds scalable, secure, and user-friendly applications. 
-      I’m currently seeking co-op, internship, or research opportunities in software engineering, cybersecurity, or AI.
+      <strong>The University of Toledo</strong> — B.S. in Computer Science (May 2026)<br>
+      CGPA: 3.57 | Dean’s List (Spring & Fall 2024) <br>
+      Scholarships: International Rocket, Klopping Engineering, Rieman, Russell J. Ebeid
+    </p>
+    <p>
+      Leadership: Executive Member at NSO, Juice House, IEEE, Coding&&Club
     </p>
   </div>
 
   <div class="section">
-    <h2>📫 Contact</h2>
-    <p>Email: <a href="mailto:dipteshthakuri@gmail.com">dipteshthakuri@gmail.com</a><br>
-    GitHub: <a href="https://github.com/dipteshhh" target="_blank">dipteshhh</a></p>
+    <h2>🌍 About Me</h2>
+    <p>
+      I bridge the gap between software engineering and investigative journalism. I'm deeply curious about how things work—whether it's a system bug, a network vulnerability, or a social policy issue in Nepal. My long-term vision is to use my CS skills to power civic innovation and make technology more accountable.
+    </p>
   </div>
 
 </body>
